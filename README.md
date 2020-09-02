@@ -1,0 +1,1 @@
+This is a clone of Newsweek's homepage for the Using Bootstrap project in The Odin Project's HTML and CSS Curriculum.
