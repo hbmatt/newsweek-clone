@@ -1,13 +1,435 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:wght@400;700;900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700" rel="stylesheet"> 
 </head>
 
 <body>
+  <header class="container header">
+    <section class="d-flex flex-row justify-content-between header-top">
+      <div class="col-3 align-self-end">
+        <date>Wed, Sep 02, 2020</date>
+      </div>
+
+      <img src="images/logo.svg">
+
+      <div class="col-3 align-self-end text-right">
+        <button type="button" class="btn btn-light">Login</button>
+        <button type="button" class="btn btn-warning">Subscribe</button>
+      </div>
+    </section>
+
+    <nav class="header-bottom">
+      <div class="d-md-flex justify-content-center text-center">
+        <a class="section-nav" href="#">U.S.</a>
+        <a class="section-nav" href="#">World</a>
+        <a class="section-nav" href="#">Business</a>
+        <a class="section-nav" href="#">Tech & Science</a>
+        <a class="section-nav" href="#">Culture</a>
+        <a class="section-nav" href="#">Newsgeek</a>
+        <a class="section-nav" href="#">Sports</a>
+        <a class="section-nav" href="#">Health</a>
+        <a class="section-nav" href="#">The Debate</a>
+        <a class="section-nav" href="#">Vantage</a>
+        <a class="section-nav" href="#">Weather</a>
+      </div>
+
+      <div class="trending-topics-wrapper d-flex">
+        <ul class="trending-topics">
+          <li><strong>TRENDING</strong></li>
+          <li><a href="#">DONALD TRUMP</a></li>
+          <li><a href="#">JOE BIDEN</a></li>
+          <li><a href="#">CHINA</a></li>
+          <li><a href="#">CORONAVIRUS</a></li>
+          <li><a href="#">2020 ELECTION</a></li> 
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+
+  <main class="main container-fluid">
+    <section class="row">
+      <div class="col-9 stories">
+        <div class="row">
+          <div class="col">
+            <div class="block-title">Featured stories</div>
+            <article class="featured">
+              <div class="wrap">
+                <div class="category">
+                  <a href="#">News</a>
+                </div>
+                <div class="image">
+                  <a href="#">
+                    <img src="images/article-placeholder.png">
+                  </a>
+                </div>
+              </div>
+              <h3>Article Title Goes Here</h3>
+              <p class="summary">This is where the summary of the article would go. Underneath the title and the image.</p>
+            </article>
+            <article class="featured">
+              <div class="wrap">
+                <div class="category">
+                  <a href="#">News</a>
+                </div>
+                <div class="image">
+                  <a href="#">
+                    <img src="images/article-placeholder.png">
+                  </a>
+                </div>
+              </div>
+              <h3>Article Title Goes Here</h3>
+              <p class="summary">This is where the summary of the article would go. Underneath the title and the image.</p>
+            </article>
+            <article class="featured">
+              <div class="wrap">
+                <div class="category">
+                  <a href="#">News</a>
+                </div>
+                <div class="image">
+                  <a href="#">
+                    <img src="images/article-placeholder.png">
+                  </a>
+                </div>
+              </div>
+              <h3>Article Title Goes Here</h3>
+              <p class="summary">This is where the summary of the article would go. Underneath the title and the image.</p>
+            </article>
+            <article class="featured">
+              <div class="wrap">
+                <div class="category">
+                  <a href="#">News</a>
+                </div>
+                <div class="image">
+                  <a href="#">
+                    <img src="images/article-placeholder.png">
+                  </a>
+                </div>
+              </div>
+              <h3>Article Title Goes Here</h3>
+              <p class="summary">This is where the summary of the article would go. Underneath the title and the image.</p>
+            </article>            
+          </div>
+          
+          <div class="col-7">
+            <div class="block-title">Top Story</div>
+
+            <article class="top-story">
+              <div class="wrap">
+                <div class="category">
+                  <a href="#">U.S.</a>
+                </div>
+                <div class="image">
+                  <a href="#">
+                    <img src="images/top-story-placeholder.png">
+                  </a>
+                </div>
+              </div>
+              <h1>Top Story Headline Would Go Here</h1>
+              <p class="summary">The summary of the top story would go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+
+            <article class="culture-stories">
+              <div class="block-title">
+                My Turn
+              </div>
+              <div class="d-sm-flex ml-n2 mr-n2">
+                <div class="flex-fill p-2">
+                  <div class="image">
+                    <a href="#">
+                      <img src="images/square-placeholder.png">
+                    </a>
+                  </div>
+                  <p class="info">Headline of Article Goes Here</p>
+                </div>
+                <div class="flex-fill p-2">
+                  <div class="image">
+                    <a href="#">
+                      <img src="images/square-placeholder.png">
+                    </a>
+                  </div>
+                  <p class="info">Headline of Article Goes Here</p>
+                </div>
+                <div class="flex-fill p-2">
+                  <div class="image">
+                    <a href="#">
+                      <img src="images/square-placeholder.png">
+                    </a>
+                  </div>
+                  <p class="info">Headline of Article Goes Here</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="culture-stories">
+              <div class="block-title">
+                Culture & Travel
+              </div>
+              <div class="d-sm-flex ml-n2 mr-n2">
+                <div class="flex-fill p-2">
+                  <div class="image">
+                    <a href="#">
+                      <img src="images/square-placeholder.png">
+                    </a>
+                  </div>
+                  <p class="info">Headline of Article Goes Here</p>
+                </div>
+                <div class="flex-fill p-2">
+                  <div class="image">
+                    <a href="#">
+                      <img src="images/square-placeholder.png">
+                    </a>
+                  </div>
+                  <p class="info">Headline of Article Goes Here</p>
+                </div>
+                <div class="flex-fill p-2">
+                  <div class="image">
+                    <a href="#">
+                      <img src="images/square-placeholder.png">
+                    </a>
+                  </div>
+                  <p class="info">Headline of Article Goes Here</p>
+                </div>
+              </div>
+            </article>
+
+            <article>
+              <div class="block-title">More Stories</div>
+
+              <div class="featured-more clearfix">
+                <img src="images/square-placeholder.png" class="float-left">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                <p class="summary">Nunc iaculis ultricies mollis. Phasellus id nisl varius, dignissim sem vel, pulvinar nisl.</p>
+              </div>
+
+              <div class="featured-more clearfix">
+                <img src="images/square-placeholder.png" class="float-left">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                <p class="summary">Nunc iaculis ultricies mollis. Phasellus id nisl varius, dignissim sem vel, pulvinar nisl.</p>
+              </div>
+
+              <div class="featured-more clearfix">
+                <img src="images/square-placeholder.png" class="float-left">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                <p class="summary">Nunc iaculis ultricies mollis. Phasellus id nisl varius, dignissim sem vel, pulvinar nisl.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <aside class="opinion col-3">
+        <div class="block-title">The Debate</div>
+        <div class="debate-item d-flex align-items-center">
+          <img src="images/square-placeholder.png">
+          <div class="flex-fill">
+            <p class="title">Title of Opinion Piece</p>
+            <p class="byline">By <strong>FIRST LAST</strong></p>
+          </div>
+        </div>
+
+        <div class="debate-item bottom d-flex align-items-center">
+          <div class="flex-fill">
+            <p class="title">Title of Opinion Piece</p>
+            <p class="byline">By <strong>FIRST LAST</strong></p>
+          </div>
+          <img src="images/square-placeholder.png">
+        </div>
+
+        <div class="block-title">Opinion</div>
+        <div class="d-flex align-items-center border-bottom pb-2">
+          <img src="images/square-placeholder.png">
+          <div class="flex-fill">
+            <p class="title">Title of Opinion Piece</p>
+            <p class="byline grey"><strong>BY FIRST LAST</strong></p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center border-bottom pb-2 pt-2">
+          <img src="images/square-placeholder.png">
+          <div class="flex-fill">
+            <p class="title">Title of Opinion Piece</p>
+            <p class="byline grey"><strong>BY FIRST LAST</strong></p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center border-bottom pb-2 pt-2">
+          <img src="images/square-placeholder.png">
+          <div class="flex-fill">
+            <p class="title">Title of Opinion Piece</p>
+            <p class="byline grey"><strong>BY FIRST LAST</strong></p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center border-bottom pb-2 pt-2">
+          <img src="images/square-placeholder.png">
+          <div class="flex-fill">
+            <p class="title">Title of Opinion Piece</p>
+            <p class="byline grey"><strong>BY FIRST LAST</strong></p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center border-bottom pb-2 pt-2">
+          <img src="images/square-placeholder.png">
+          <div class="flex-fill">
+            <p class="title">Title of Opinion Piece</p>
+            <p class="byline grey"><strong>BY FIRST LAST</strong></p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center pt-2">
+          <img src="images/square-placeholder.png">
+          <div class="flex-fill">
+            <p class="title">Title of Opinion Piece</p>
+            <p class="byline grey"><strong>BY FIRST LAST</strong></p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="row mt-3 mb-4 d-flex flex-column">
+      <div class="magazine pt-2 text-center">
+        <p class="title">In the magazine</p>
+      </div>
+      <div class="magazine row pt-4">
+        <div class="col">
+          <img class="image" src="images/top-story-placeholder.png">
+          <div class="category">
+            <span class="mag-cat">Cover</span><span class="cat">Politics</span>
+          </div>
+          <h5>Title of Article in Magazine</h5>
+        </div>
+        <div class="col">
+          <img class="image" src="images/top-story-placeholder.png">
+          <div class="category">
+            <span class="mag-cat">Cover</span><span class="cat">Politics</span>
+          </div>
+          <h5>Title of Article in Magazine</h5>
+        </div>
+        <div class="col">
+          <img class="image" src="images/top-story-placeholder.png">
+          <div class="category">
+            <span class="mag-cat">Cover</span><span class="cat">Politics</span>
+          </div>
+          <h5>Title of Article in Magazine</h5>
+        </div>
+        <div class="col">
+          <img class="image" src="images/top-story-placeholder.png">
+          <div class="category">
+            <span class="mag-cat">Cover</span><span class="cat">Politics</span>
+          </div>
+          <h5>Title of Article in Magazine</h5>
+        </div>
+      </div>
+      <div class="magazine row pt-4">
+        <div class="col">
+          <img class="image" src="images/top-story-placeholder.png">
+          <div class="category">
+            <span class="mag-cat">Cover</span><span class="cat">Politics</span>
+          </div>
+          <h5>Title of Article in Magazine</h5>
+        </div>
+        <div class="col">
+          <img class="image" src="images/top-story-placeholder.png">
+          <div class="category">
+            <span class="mag-cat">Cover</span><span class="cat">Politics</span>
+          </div>
+          <h5>Title of Article in Magazine</h5>
+        </div>
+        <div class="col">
+          <img class="image" src="images/top-story-placeholder.png">
+          <div class="category">
+            <span class="mag-cat">Cover</span><span class="cat">Politics</span>
+          </div>
+          <h5>Title of Article in Magazine</h5>
+        </div>
+        <div class="col">
+          <img class="image" src="images/top-story-placeholder.png">
+          <div class="category">
+            <span class="mag-cat">Cover</span><span class="cat">Politics</span>
+          </div>
+          <h5>Title of Article in Magazine</h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-picks row mt-3 d-flex flex-column">
+      <div class="block-title">U.S.</div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/article-placeholder.png" class="image">
+          <h4>Featured Article Title Here</h4>
+        </div>
+        <div class="col-sm-4">
+          <img src="images/article-placeholder.png" class="image">
+          <h4>Featured Article Title Here</h4>
+        </div>
+        <div class="col-sm-4">
+          <div class="d-flex border-bottom pb-2">
+            <img src="images/article-placeholder.png" class="small-image">
+            <div class="info">Article Title</div>
+          </div>
+          <div class="d-flex border-bottom pt-2 pb-2">
+            <img src="images/top-story-placeholder.png" class="small-image">
+            <div class="info">Article Title</div>
+          </div>
+          <div class="d-flex pt-2">
+            <img src="images/square-placeholder.png" class="small-image">
+            <div class="info">Article Title</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pt-4 pb-4 bg-white container-fluid">
+    <section class="d-sm-flex justify-content-between align-items-end">
+      <div class="d-sm-flex align-items-end">
+        <img class="brand" src="images/logo-red.svg">
+        <p class="copyright">© 2020 Newsweek</p>
+    </div>
+    </section>
+
+    <nav class="d-flex flex-wrap border-top pt-3">
+      <div class="d-flex">
+        <p class="mr-3 mb-0"><strong>Editions:</strong></p>
+        <ul class="menu pl-0 mb-0">
+          <li>U.S. Edition</li>
+          <li>日本</li>
+          <li>Pakistan</li>
+          <li>Polska</li>
+          <li class="border-right-0">România</li>
+        </ul>
+      </div>
+
+      <ul class="menu-links pl-0 mt-2">
+        <li>About Us</li>
+        <li>Corrections</li>
+        <li>Contact Us</li>
+        <li>Editorial Guidelines</li>
+        <li>Advertise</li>
+        <li>Copyright</li>
+        <li>Terms & Conditions</li>
+        <li>Privacy Policy</li>
+        <li>Cookie Policy</li>
+        <li>Terms of Sale</li>
+        <li>Archive</li>
+        <li>Announcements</li>
+        <li class="border-right-0">Consent preferences</li>
+      </ul>
+    </nav>
+  </footer>
 
 </body>
 
